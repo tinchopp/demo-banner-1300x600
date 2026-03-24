@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.banner {
+  position: relative;
+  width: 1300px;
+  height: 600px;
+  overflow: hidden;
+  background: transparent;
+  cursor: pointer;
+}
+
+.product {
+  position: absolute;
+  height: auto;
+  transform-origin: center center;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+.center-group {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  z-index: 5;
+  pointer-events: none;
+  width: max-content;
+}
+
+.logo {
+  position: relative;
+  width: 140px;
+  height: auto;
+  display: block;
+}
+
+.cta {
+  position: relative;
+}
+
+.cta-inner {
+  display: inline-block;
+  background: rgb(255, 102, 0);
+  color: rgb(255, 254, 254);
+  border-radius: 999px;
+  padding: 12px 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+}
+
+.banner:hover .cta-inner {
+  transform: scale(1.05);
+}
+
+/* SUPERIOR IZQUIERDA */
+.p1 {
+  top: 120px;
+  left: -20px;
+  width: 185px;
+  transform: rotate(-28deg);
+}
+
+.p2 {
+  top: 55px;
+  left: 205px;
+  width: 170px;
+  transform: rotate(19deg);
+}
+
+.p3 {
+  top: 10px;
+  left: 420px;
+  width: 265px;
+  transform: rotate(4deg);
+}
+
+.p4 {
+  top: 140px;
+  left: 645px;
+  width: 175px;
+  transform: rotate(-21deg);
+}
+
+.p5 {
+  top: 80px;
+  left: 890px;
+  width: 190px;
+  transform: rotate(8deg);
+}
+
+.p6 {
+  top: 155px;
+  right: -10px;
+  width: 150px;
+  transform: rotate(25deg);
+}
+
+/* LATERAL IZQUIERDA / INFERIOR */
+.p7 {
+  bottom: 40px;
+  left: -15px;
+  width: 145px;
+  transform: rotate(-18deg);
+}
+
+.p8 {
+  bottom: -15px;
+  left: 170px;
+  width: 220px;
+  transform: rotate(22deg);
+}
+
+.p9 {
+  bottom: -5px;
+  left: 385px;
+  width: 170px;
+  transform: rotate(-31deg);
+}
+
+.p10 {
+  bottom: 10px;
+  left: 610px;
+  width: 190px;
+  transform: rotate(18deg);
+}
+
+.p11 {
+  bottom: -10px;
+  left: 860px;
+  width: 175px;
+  transform: rotate(-14deg);
+}
+
+.p12 {
+  bottom: -20px;
+  right: -5px;
+  width: 155px;
+  transform: rotate(23deg);
+}
+
+/* REFUERZOS INTERMEDIOS */
+.p13 {
+  top: 235px;
+  left: 150px;
+  width: 150px;
+  transform: rotate(14deg);
+}
+
+.p14 {
+  top: 215px;
+  left: 500px;
+  width: 165px;
+  transform: rotate(-12deg);
+}
+
+.p15 {
+  top: 250px;
+  right: 250px;
+  width: 155px;
+  transform: rotate(16deg);
+}
+
+.p16 {
+  top: 320px;
+  right: 65px;
+  width: 165px;
+  transform: rotate(-20deg);
+}
+
+/* CAPAS EXTRA PARA MÁS DENSIDAD */
+.p17 {
+  top: 345px;
+  left: 305px;
+  width: 145px;
+  transform: rotate(-8deg);
+}
+
+.p18 {
+  top: 60px;
+  right: 120px;
+  width: 155px;
+  transform: rotate(30deg);
+}
